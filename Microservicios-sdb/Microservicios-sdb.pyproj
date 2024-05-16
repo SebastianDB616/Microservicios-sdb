@@ -26,6 +26,9 @@
     <Compile Include="src\converter\consumer.py" />
     <Compile Include="src\converter\convert\to_mp3.py" />
     <Compile Include="src\converter\convert\__init__.py" />
+    <Compile Include="src\converter\notification\consumer.py" />
+    <Compile Include="src\converter\notification\send\email.py" />
+    <Compile Include="src\converter\notification\send\__init__.py" />
     <Compile Include="src\gateway\auth\validate.py" />
     <Compile Include="src\gateway\auth\__init__.py" />
     <Compile Include="src\gateway\auth_svc\access.py" />
@@ -40,6 +43,8 @@
     <Folder Include="src\auth\manifests\" />
     <Folder Include="src\converter\convert\" />
     <Folder Include="src\converter\manifests\" />
+    <Folder Include="src\converter\notification\" />
+    <Folder Include="src\converter\notification\send\" />
     <Folder Include="src\gateway\" />
     <Folder Include="src\gateway\auth_svc\" />
     <Folder Include="src\gateway\auth\" />
