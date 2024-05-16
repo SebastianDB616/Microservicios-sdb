@@ -40,6 +40,8 @@
     <Folder Include="src\gateway\auth\" />
     <Folder Include="src\gateway\manifests\" />
     <Folder Include="src\gateway\storage\" />
+    <Folder Include="src\rabbit\" />
+    <Folder Include="src\rabbit\manifests\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="src\auth\Dockerfile" />
@@ -55,6 +57,12 @@
     <Content Include="src\gateway\manifests\secret.yaml" />
     <Content Include="src\gateway\manifests\service.yaml" />
     <Content Include="src\gateway\storage\Dockerfile" />
+    <Content Include="src\rabbit\manifests\configmap.yaml" />
+    <Content Include="src\rabbit\manifests\ingress.yaml" />
+    <Content Include="src\rabbit\manifests\pvc.yaml" />
+    <Content Include="src\rabbit\manifests\secret.yaml" />
+    <Content Include="src\rabbit\manifests\service.yaml" />
+    <Content Include="src\rabbit\manifests\statefulset.yaml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
