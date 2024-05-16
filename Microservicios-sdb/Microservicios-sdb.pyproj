@@ -23,6 +23,7 @@
   <ItemGroup>
     <Compile Include="Microservicios_sdb.py" />
     <Compile Include="src\auth\server.py" />
+    <Compile Include="src\gateway\auth\validate.py" />
     <Compile Include="src\gateway\auth_svc\access.py" />
     <Compile Include="src\gateway\auth_svc\__init__.py" />
     <Compile Include="src\gateway\server.py" />
@@ -33,6 +34,7 @@
     <Folder Include="src\auth\manifests\" />
     <Folder Include="src\gateway\" />
     <Folder Include="src\gateway\auth_svc\" />
+    <Folder Include="src\gateway\auth\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="src\auth\Dockerfile" />
