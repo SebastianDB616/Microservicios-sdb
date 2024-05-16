@@ -39,6 +39,7 @@
     <Folder Include="src\auth\" />
     <Folder Include="src\auth\manifests\" />
     <Folder Include="src\converter\convert\" />
+    <Folder Include="src\converter\manifests\" />
     <Folder Include="src\gateway\" />
     <Folder Include="src\gateway\auth_svc\" />
     <Folder Include="src\gateway\auth\" />
@@ -57,6 +58,9 @@
     <Content Include="src\auth\manifests\service.yaml" />
     <Content Include="src\auth\requirements.txt" />
     <Content Include="src\converter\Dockerfile" />
+    <Content Include="src\converter\manifests\configmap.yaml" />
+    <Content Include="src\converter\manifests\converter-deploy.yaml" />
+    <Content Include="src\converter\manifests\secret.yaml" />
     <Content Include="src\converter\requirements.txt" />
     <Content Include="src\gateway\manifests\configmap.yaml" />
     <Content Include="src\gateway\manifests\gateway-deploy.yaml" />
