@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Microservicios-sdb", "Microservicios-sdb\Microservicios-sdb.pyproj", "{DCFE28E3-33E0-44F9-88E1-D402A6D741BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCFE28E3-33E0-44F9-88E1-D402A6D741BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCFE28E3-33E0-44F9-88E1-D402A6D741BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7D6F4D1-32B9-4397-AD3F-4804C1B741D7}
+	EndGlobalSection
+EndGlobal
